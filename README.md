@@ -7,7 +7,7 @@ Use the context menu to fire a torpedo on the grid. The grid is outlined below. 
 
 ## Outline Of The Board
 
-![](D:\Owner\Pictures\Battleship Game.png)
+![Battleship Game.png]()
 
 ## Conclusion
 
