@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="/favicon/icons8_battleship.ico"
+			type="image/x-icon"
+		/>
+		<meta
+			name="description"
+			content="IS30A - Clovis Community College - Austin Spraggins"
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:determiner" content="auto" />
+		<meta
+			property="og:image"
+			content="/Spraggins Designs Cover Logo Wide.jpg"
+		/>
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:type" content="image/jpeg" />
+		<meta
+			property="og:image:alt"
+			content="IS30A - Clovis Community College - Austin Spraggins"
+		/>
+		<meta property="og:image:type" content="image/jpeg" />
+
+		<title>Battleship Game | IS30A</title>
+		<style>
+			body {
+				background-color: black;
+				font-family: Montserrat, sans-serif;
+				text-emphasis-color: white;
+				text-shadow: 1px 1px 1px black;
+			}
+
+			div#board {
+				position: relative;
+				width: 1024px;
+				height: 863px;
+				margin: auto;
+				background: url("board.jpg") no-repeat;
+				border-radius: 20%;
+				background-size: cover;
+			}
+
+			div#messageArea {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				color: rgb(83, 175, 19);
+				font-size: 50px;
+				font-weight: bold;
+				text-align: center;
+				width: 100%;
+				height: 100%;
+				text-shadow: 1px 1px 1px black;
+			}
+
+			.hit {
+				background: url("ship.png") no-repeat center center;
+			}
+
+			.miss {
+				background: url("miss.png") no-repeat center center;
+			}
+
+			table {
+				border-spacing: 0px;
+				position: absolute;
+				left: 173px;
+				top: 98px;
+			}
+
+			td {
+				width: 94px;
+				height: 94px;
+			}
+
+			form {
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				padding: 15px;
+				background-color: rgb(83, 175, 19);
+			}
+
+			form input {
+				background-color: rgb(152, 207, 113);
+				border-color: rgb(83, 175, 19);
+				font-size: 1em;
+			}
+
+			footer {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				padding: 1rem;
+				background-color: transparent;
+				text-align: center;
+				color: white;
+				font-style: italic;
+				text-decoration: overline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="board">
+			<div id="messageArea"></div>
+			<table>
+				<tr>
+					<td id="00"></td>
+					<td id="01"></td>
+					<td id="02"></td>
+					<td id="03"></td>
+					<td id="04"></td>
+					<td id="05"></td>
+					<td id="06"></td>
+				</tr>
+				<tr>
+					<td id="10"></td>
+					<td id="11"></td>
+					<td id="12"></td>
+					<td id="13"></td>
+					<td id="14"></td>
+					<td id="15"></td>
+					<td id="16"></td>
+				</tr>
+				<tr>
+					<td id="20"></td>
+					<td id="21"></td>
+					<td id="22"></td>
+					<td id="23"></td>
+					<td id="24"></td>
+					<td id="25"></td>
+					<td id="26"></td>
+				</tr>
+				<tr>
+					<td id="30"></td>
+					<td id="31"></td>
+					<td id="32"></td>
+					<td id="33"></td>
+					<td id="34"></td>
+					<td id="35"></td>
+					<td id="36"></td>
+				</tr>
+				<tr>
+					<td id="40"></td>
+					<td id="41"></td>
+					<td id="42"></td>
+					<td id="43"></td>
+					<td id="44"></td>
+					<td id="45"></td>
+					<td id="46"></td>
+				</tr>
+				<tr>
+					<td id="50"></td>
+					<td id="51"></td>
+					<td id="52"></td>
+					<td id="53"></td>
+					<td id="54"></td>
+					<td id="55"></td>
+					<td id="56"></td>
+				</tr>
+				<tr>
+					<td id="60"></td>
+					<td id="61"></td>
+					<td id="62"></td>
+					<td id="63"></td>
+					<td id="64"></td>
+					<td id="65"></td>
+					<td id="66"></td>
+				</tr>
+			</table>
+			<form>
+				<input type="text" id="guessInput" placeholder="A0" />
+				<input type="button" id="fireButton" value="Fire!" />
+			</form>
+		</div>
+		<script src="battleship.js"></script>
+		<footer>
+			<a href="http://www.spragginsdesigns.com" target="_blank"></a>
+			Coded by Austin Spraggins<br /><br />
+			<a href="https://apprize.best/javascript/head/9.html" target="_blank"
+				>Guided By</a
+			>
+		</footer>
+	</body>
+</html>
