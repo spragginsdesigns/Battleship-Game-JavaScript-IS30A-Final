@@ -1,18 +1,39 @@
 # Battleship Game | Vanilla JavaScript
-This is my final for IS30A at Clovis Community College. I built a Battleship game with vanilla JavaScript. 
+
+## Overview
+
+Welcome to the Battleship game, a project developed for the IS30A final at Clovis Community College. This game is built entirely with vanilla JavaScript, providing an engaging and interactive experience.
 
 ## Instructions
 
-Use the context menu to fire a torpedo on the grid. The grid is outlined below. Type in A1-A6, down to D1-D6. And for a hint, use Developer Tools and the console to type in `` and it will show you the arrays for where they are located. 
+To play the game, follow these simple instructions:
 
-## Outline Of The Board
+1. **Firing Torpedoes:**
+   - Use the context menu to fire a torpedo on the grid.
+   - Specify coordinates using the format A1-A6, down to D1-D6.
 
-![Battleship Game.png](Battleship%20Game.png)
+2. **Hint for Location:**
+   - Utilize the Developer Tools and the console to type in `` (backticks) for a hint.
+   - This will reveal the arrays showing the locations of various elements on the grid.
+
+## Board Layout
+
+For a visual representation of the game board, refer to the image: ![Battleship Game.png](Battleship%20Game.png)
 
 ## Conclusion
 
-This was a fun project to do. I created this project for my IS30A Final at Clovis Community College, and I also helped several students with the final as well. 
+This project served as the culmination of my IS30A coursework at Clovis Community College. It not only provided an opportunity for personal growth and learning but also allowed me to assist fellow students in completing their finals.
 
-Lastly, if you want to see the answers for the board, simply type in `model.ships` in the Developer Tools console, and the arrays will show you the board, and where the ships are. 
+## Viewing Answers
 
-The code and PDF Guide are created by Head First JavaScript Programming, Chapter 8, which can be found [here](https://apprize.best/javascript/head/9.html)
+If you're curious about the answers on the board, follow these steps:
+
+1. Open the Developer Tools console.
+2. Type `model.ships` in the console.
+3. The arrays will be displayed, showing the board and the locations of the ships.
+
+## Credits
+
+The code and PDF Guide used in this project are sourced from Head First JavaScript Programming, Chapter 8. You can find the referenced material [here](https://apprize.best/javascript/head/9.html).
+
+Feel free to enjoy the game, and happy hunting on the high seas!
